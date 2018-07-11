@@ -68,3 +68,7 @@ button.sp-button {
 .sp-margin {
     margin-top: 3em;
 }
+
+.sp-top {
+    border: none;
+}
