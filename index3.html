@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style3.css">
+
+    <!-- Adding custom fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+</head>
+
+<body>
+    <!-- navigation bar starts -->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navtoggle" aria-controls="navtoggle" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navtoggle">
+                <a class="navbar-brand " href="#">
+                    <h2>sportist</h2>
+                </a>
+            </div>
+
+            <ul class="navbar-nav sp-nav text-light mt-5">
+                <li class="nav-item text-light active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item text-light">
+                    <a class="nav-link" href="#">Match</a>
+                </li>
+                <li class="nav-item text-light">
+                    <a class="nav-link" href="#">News</a>
+                </li>
+                <li class="nav-item text-light">
+                    <a class="nav-link" href="#">Ticket</a>
+                </li>
+                <li class="nav-item text-light">
+                    <a class="nav-link" href="#">Histroy</a>
+                </li>
+                <li class="nav-item text-light ">
+                    <a class="nav-link" href="#">Team member</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="sp-body">
+        <div class="container">
+            <div class="sp-top">
+                <h6 class="sp-contact">Contact us</h6>
+                <h2><b>LEAVE MESSAGE</b></h2>
+                <div class="underline"></div>
+
+                <form class="sp-form">
+                    <div class="form-row">
+                        <div class="form-group sp-group  mr-5">
+                            <label for="inputEmail">Email address*</label>
+                            <input type="email" class="form-control sp-input " id="inputEmail">
+                        </div>
+                        <div class="form-group sp-group">
+                            <label for="inputSubject">Subject</label>
+                            <input type="text" class="form-control sp-input" id="inputSubject">
+                        </div>
+                    </div>
+                    <div class="form-group sp-group">
+                        <label for="inputMessage">Message*</label>
+                        <textarea class="form-control sp-input" id="inputMessage"></textarea>
+                    </div>
+                    <button type="button" class="btn sp-btn btn-lg"><b>SEND MESSAGE</b></button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

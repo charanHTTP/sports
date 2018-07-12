@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.7em
+}
+
+.navbar-brand h2 {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.bg-light {
+    background-image: url(./images/nav-bg.jpg);
+    background-size: cover;
+    height: 110px;
+}
+
+ul.sp-nav {
+    margin-right: 14em;
+}
+
+.navbar-nav li>a {
+    color: #fff;
+}
+
+.navbar-nav li>a.nav-link {
+    font-size: 0.9em;
+    margin-right: 3em;
+}
+
+
+/* Body content--- */
+
+.sp-body {
+    background-image: url(./images/nav.jpg);
+}
+
+.sp-top {
+    padding: 7em;
+}
+
+h2 {
+    font-size: 3em;
+    color: #fff
+}
+
+h6.sp-contact {
+    font-size: 1.3em;
+    color: #fff
+}
+
+.underline {
+    height: 7px;
+    width: 78px;
+    background-image: linear-gradient(to right top, #aed9da, #99dada, #81dada, #65dad9, #3ddad7);
+    margin-bottom: 70px;
+}
+
+form.sp-form {
+    margin-left: 13em;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.sp-group label {
+    color: #fff;
+}
+
+.sp-input {
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #fff;
+    background: transparent
+}
+
+.sp-form textarea {
+    max-width: 30.2em;
+    margin-bottom: 30px
+}
+
+button.sp-btn {
+    background-image: linear-gradient(to right top, #7fd5d6, #65dad9, #34caca, #388383, #19807e);
+    font-size: 1.2em;
+    border: none;
+    border-radius: 0;
+    height: 44px;
+    width: 12em;
+    color: #fff
+}
